@@ -95,6 +95,4 @@ holdBtn.addEventListener('click', function() {
 });
 
 
-newBtn.addEventListener('click', function(){
-    init();
-});
+newBtn.addEventListener('click', init());
